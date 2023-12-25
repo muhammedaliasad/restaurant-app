@@ -1,0 +1,37 @@
+@import "../../App.scss";
+
+ul li a {
+  padding: 0px 20px;
+}
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: 60px;
+  position: relative;
+  z-index: 999;
+  transition: $transition;
+
+  .navbar-brand-text {
+    margin-left: 5px;
+  }
+  .navbar-search-btn {
+    margin-right: 12px;
+  }
+}
+
+.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header {
+  .header-content {
+    height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+      url("../../assets/images/header_image.jpg") center/cover no-repeat;
+  }
+  .header-title {
+    margin-top: 2.4rem;
+  }
+}
